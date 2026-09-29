@@ -1,0 +1,28 @@
+{
+  "name": "green-api-chat",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Production-quality React chat with GREEN-API integration",
+  "scripts": {
+    "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
+    "dev:server": "cd server && npm run dev",
+    "dev:client": "cd client && npm run dev",
+    "build": "npm run build:server && npm run build:client",
+    "build:server": "cd server && npm run build",
+    "build:client": "cd client && npm run build",
+    "test": "cd client && npm test",
+    "typecheck": "npm run typecheck:server && npm run typecheck:client",
+    "typecheck:server": "cd server && npm run typecheck",
+    "typecheck:client": "cd client && npm run typecheck",
+    "lint": "npm run lint:server && npm run lint:client",
+    "lint:server": "cd server && npm run lint",
+    "lint:client": "cd client && npm run lint"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "workspaces": [
+    "client",
+    "server"
+  ]
+}
