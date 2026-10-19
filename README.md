@@ -6,6 +6,7 @@ A production-quality React chat application showcasing **strong frontend enginee
 ![React](https://img.shields.io/badge/React-19-61dafb)
 ![Tests](https://img.shields.io/badge/Tests-Vitest-yellow)
 ![License](https://img.shields.io/badge/License-MIT-green)
+<img width="972" height="655" alt="изображение" src="https://github.com/user-attachments/assets/11640e45-1908-435d-9b2d-b2d2dd5881a9" />
 
 ## Project Vision
 
